@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    text-transform: capitalize;
+
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content button {
+    background-color: #0D82CA;
+    ;
+}
+
+.banner-h1 {
+    font-size: 65px;
+    margin: 0 !important;
+}
+
+.banner-tagline-p {
+    font-size: 32px;
+    padding: 0 !important;
+    font-family: "inter";
+}
+
+.blue-btn a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    /* important */
+}
+
+.blue-btn,
+.first-link {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.blue-btn {
+    height: 64px;
+    font: normal normal 700 1em/4em Arial, sans-serif;
+    overflow: hidden;
+    width: 200px;
+    background-color: #0D82CA;
+    border-radius: 20px;
+}
+
+.blue-btn:hover {
+    background-color: #3b5998;
+
+}
+
+.blue-btn a:hover {
+    text-decoration: none;
+}
+
+.first-link {
+    margin-top: 0em;
+}
+
+.blue-btn:hover .first-link {
+    margin-top: -4em;
+}
+
+.feature-tagline1{
+    font-size: 4rem !important;
+    font-weight: 600;
+}
+
+
+.feature-tagline2{
+    font-size: 4rem !important;
+    font-weight: 600;
+}
+
+.feature-subtagline3{
+    font-size: 18px !important;
+    font-weight: 400;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.features-section .card {
+    max-width: 300px;
+    height: 300px;
+    padding: 20px;
+    background: #0D82CA;
+    border-radius: 22px;
+    color: white;
+}
+
+.features-section .card2 {
+    max-width: 300px;
+    height: 300px;
+    padding: 20px;
+    color: #0D82CA;
+    border-radius: 22px;
+}
+
+.courses .cards .card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 26px;
+}
+
+.courses .cards {
+    display: flex;
+    justify-content: space-evenly;
+}
