@@ -41,4 +41,3 @@ enrollBtn.addEventListener("click", function() {
   // Add your code to handle the enroll button click event here
 });
 
-
