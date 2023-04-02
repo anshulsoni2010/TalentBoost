@@ -265,3 +265,43 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+
+
+#enroll-btn {
+  background-color: #0D82CA;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#enroll-btn:hover {
+  background-color: #0b659c;
+}
+
+
+/* resposive of cards starts */
+/* Small screens */
+@media (max-width: 767px) {
+  .enroll-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  .enroll-btn img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .enroll-btn {
+    font-size: 16px;
+    padding: 8px 20px;
+  }
+}
+
